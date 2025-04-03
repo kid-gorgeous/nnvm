@@ -100,3 +100,10 @@ lsp.setup()
 -- -- (Optional) Configure lua language server for neovim
 -- lsp.nvim_workspace()
 
+require("mason-lspconfig").setup({
+    ensure_installed = {
+        "tsserver", -- TypeScript/JavaScript LSP
+        "lua_ls",   -- Lua LSP
+        "pyright",  -- Python LSP
+    },
+})

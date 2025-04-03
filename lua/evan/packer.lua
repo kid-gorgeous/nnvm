@@ -73,6 +73,17 @@ return require('packer').startup(function(use)
             require("auto-save").setup {}
         end,
     })
+
+	use {
+		'nvimdev/dashboard-nvim',
+		event = 'VimEnter',
+		config = function()
+		  require('dashboard').setup {
+			-- config
+		  }
+		end,
+		requires = {'nvim-tree/nvim-web-devicons'}
+	}
 	  
 
     -- use('nvim-lualine/lualine.nvim')
