@@ -179,7 +179,7 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["rose-pine"] = {
-    config = { "\27LJ\2\nè\1\0\0\3\0\a\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\0016\0\4\0009\0\5\0'\2\6\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\1\0\2\20disable_italics\2\17dark_variant\tmoon\nsetup\14rose-pine\frequire\0" },
+    config = { "\27LJ\2\nÔøΩ\1\0\0\3\0\a\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\0016\0\4\0009\0\5\0'\2\6\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\1\0\2\20disable_italics\2\17dark_variant\tmoon\nsetup\14rose-pine\frequire\0" },
     loaded = true,
     path = "/home/evan/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
@@ -210,33 +210,32 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
-try_loadstring("\27LJ\2\nè\1\0\0\3\0\a\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\0016\0\4\0009\0\5\0'\2\6\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\1\0\2\20disable_italics\2\17dark_variant\tmoon\nsetup\14rose-pine\frequire\0", "config", "rose-pine")
+try_loadstring("\27LJ\2\nÔøΩ\1\0\0\3\0\a\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\0016\0\4\0009\0\5\0'\2\6\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\1\0\2\20disable_italics\2\17dark_variant\tmoon\nsetup\14rose-pine\frequire\0", "config", "rose-pine")
 time([[Config for rose-pine]], false)
 -- Config for: wilder.nvim
 time([[Config for wilder.nvim]], true)
 try_loadstring("\27LJ\2\n\v\0\0\1\0\0\0\1K\0\1\0\0", "config", "wilder.nvim")
 time([[Config for wilder.nvim]], false)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
 -- Config for: auto-save.nvim
 time([[Config for auto-save.nvim]], true)
 try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14auto-save\frequire\0", "config", "auto-save.nvim")
 time([[Config for auto-save.nvim]], false)
->>>>>>> 5844aab (uploading from: MacOS - changes: adding macOS changes)
+
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
-  -- Event lazy-loads
+-- Event lazy-loads
 time([[Defining lazy-load event autocommands]], true)
 vim.cmd [[au VimEnter * ++once lua require("packer.load")({'dashboard-nvim'}, { event = "VimEnter *" }, _G.packer_plugins)]]
 time([[Defining lazy-load event autocommands]], false)
 vim.cmd("augroup END")
-=======
+
+
 -- Config for: auto-save.nvim
 time([[Config for auto-save.nvim]], true)
 try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14auto-save\frequire\0", "config", "auto-save.nvim")
 time([[Config for auto-save.nvim]], false)
->>>>>>> 4fb1ca4 (Uploaded from LinuxOS: adding asahi files)
+
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
